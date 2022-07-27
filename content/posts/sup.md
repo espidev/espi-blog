@@ -4,8 +4,7 @@ date: 2022-07-26T21:55:29-04:00
 draft: false
 ---
 
-
-# sup
+## hello ducc
 
 My blog is up.
 
