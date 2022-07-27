@@ -2,6 +2,7 @@
 title: "Hello!"
 date: 2019-06-01T10:58:29-04:00
 draft: false
+tags: [hello]
 ---
 
 Hey!

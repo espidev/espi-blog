@@ -2,9 +2,10 @@
 title: "Creating an API in Java"
 date: 2019-07-01T08:58:29-04:00
 draft: false
+tags: [tutorials]
 ---
 
-**Warning: This is something I wrote in high school**
+**Warning: This is something I wrote in high school and probably doesn't make sense!**
 
 So I have recently finished making a beta of a SpigotMC plugin (ProtectionStones), and so I am going to share my thoughts on Java API development, from the ecosystem, to simply the structure of your program.
 

@@ -1,0 +1,27 @@
+<footer id="footer">
+    {{ if .Site.Social }}
+        {{ partial "social.html" . }}
+    {{ end }}
+
+    <div class="copyright">
+    {{ with .Site.Params.copyright }}
+        {{ . | markdownify }}
+    {{ else }}
+       espidev
+       💃
+       {{ now.Format "2006"}} 
+    {{ end }}
+    </div>
+
+</footer>
+
+{{ range .Site.Params.customJS }}
+    {{ if ( or ( hasPrefix . "http://" ) ( hasPrefix . "https://" ) ) }}
+        <!-- remote js -->
+        <script src="{{ . }}"></script>
+    {{ else }}
+        <!-- local js -->
+        <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+    {{ end }}
+{{ end }}
+
