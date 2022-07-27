@@ -9,9 +9,11 @@ pygmentscodefencesguesssyntax = true
 
 paginate = 10
 
+summaryLength = 0
+
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+    subtitle = "A person on the internet that thinks [Konqi](https://community.kde.org/Konqi) is the best..."
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
@@ -27,7 +29,7 @@ paginate = 10
 
     # Switch to dark mode or auto detect mode from OS (Optional).
     # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-    mode = "auto" # "dark" or "auto"
+    mode = "light" # "dark" or "auto"
 
     # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
     # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
@@ -40,6 +42,7 @@ paginate = 10
     # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
     # for example you may want to include external JS library.
     customJS = []
+
 
 [[params.social]]
 name = "KDE Invent"

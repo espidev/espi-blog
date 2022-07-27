@@ -4,7 +4,7 @@ date: 2019-07-01T08:58:29-04:00
 draft: false
 ---
 
-**Warning: This page is incomplete!**
+**Warning: This is something I wrote in high school**
 
 So I have recently finished making a beta of a SpigotMC plugin (ProtectionStones), and so I am going to share my thoughts on Java API development, from the ecosystem, to simply the structure of your program.
 
