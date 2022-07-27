@@ -17,7 +17,7 @@ copyright = "© {year}"
   dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/espidev"
+  twitter = "https://twitter.com/<your handle>"
   github = "https://github.com/espidev"
   # email = "mailto:<your email>"
   # mastodon = "https://mastodon.social/@nickname"
