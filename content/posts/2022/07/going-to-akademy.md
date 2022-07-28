@@ -5,7 +5,7 @@ draft: false
 tags: [kde]
 ---
 
-I am going to be attending Akademy 2022 in person!
+I am going to be attending [Akademy 2022](https://akademy.kde.org/2022) in person!
 
 This is my first time going to Akademy in-person, so it is quite exciting! 
 I will be doing a talk with Bhushan on the state of [Plasma Mobile](https://plasma-mobile.org).
@@ -37,7 +37,7 @@ One of the most exciting developments in the project over the past few years has
 
 ---
 
-Overall, I am very excited to be able to share a lot of the work that has been done at this year's Akademy! Be sure to check out my talk!
+Overall, I am very excited to be able to share a lot of the work that has been done when I attend this year's Akademy! Be sure to check out my talk!
 
 <img src="https://akademy.kde.org/sites/akademy.kde.org/files/2021/akademy2021_groupphoto.png" width=500px/>
 
