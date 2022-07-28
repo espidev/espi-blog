@@ -15,7 +15,7 @@ There are a few things I work on, namely KDE contributions, music and some other
 
 Contact:
 
-* **email** - espidev@gmail.com
+* **email** - espidev@gmail.com or devin@kde.org
 * **matrix** - @espidev:kde.org
 * **discord** - EspiDev#2837
 
@@ -23,7 +23,6 @@ Socials:
 
 * **mastodon (foss stuff)** - [fosstodon.org/web/@espidev](https://fosstodon.org/web/@espidev)
 * **twitter (music & random stuff)** - [twitter.com/espidev](https://twitter.com/espidev)
-
 
 Code:
 

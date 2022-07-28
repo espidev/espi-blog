@@ -6,6 +6,11 @@ theme = ["github.com/espidev/hugo-theme-mini"]
 [params]
     enableComments = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Enable tags.
 [taxonomies]
    tag = "tags"
