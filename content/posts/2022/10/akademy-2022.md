@@ -1,7 +1,7 @@
 ---
 title: "Akademy 2022"
 date: 2022-10-04T11:26:29+01:00
-draft: true
+draft: false
 tags: [kde]
 ---
 
@@ -82,13 +82,19 @@ While I likely will not be very involved with the project since I am preoccupied
 
 ## Debugging session with Aleix
 
-We have had a severe regression for several months now with the lockscreen.
+We have had a severe regression for several months now with the lockscreen, which crashes frequently when waking from suspend: https://invent.kde.org/teams/plasma-mobile/issues/-/issues/156
 
+I sat down with Aleix to really focus on trying to fix this issue, since he knows about KWin for more than me, though his PinePhone had not been working and so he couldn't replicate it previously.
 
+After hours of jumping around git commits of `kscreenlocker` (compiling it on device is painful), we realized that the issue was elsewhere in the stack. There is some sort of Wayland registry failure that occurs when `kscreenlocker` is started immediately after waking from suspend, which causes it to crash. We unfortunately did not have enough time to pinpoint the issue, but we do have some ways to move forward with investigating in the future. We suspect it may be related to when KWaylandServer was merged into KWin.
 
 ## Convergent Forms BoF
 
+The last BoF I attended was about convergent forms, and how we can design forms that use a single codebase, but have designs that work for both mobile and desktop.
 
+Currently, we have special components in `kirigami-addons` for mobile, but are not necessarily great on desktop.
+
+What was decided was to create a new "FormLayout" component in Kirigami, which can take a set of instructions to build the form, and generates the necessary components to display properly on whichever platform it is running on.
 
 # Closing
 
@@ -96,5 +102,4 @@ I left after the third day to visit Paris before going home. It was my first tim
 
 Overall, I had an amazing time at Akademy this year, and hope to attend more in the future!
 
-TODO:
-- Add pictures
+TODO: Add pictures
