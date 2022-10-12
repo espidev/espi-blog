@@ -1,6 +1,6 @@
 ---
 title: "Akademy 2022"
-date: 2022-10-04T11:26:29+01:00
+date: 2022-10-12T11:26:29+01:00
 draft: false
 tags: [kde]
 ---
@@ -13,7 +13,7 @@ For context, I first started contributing to Plasma Mobile in 2020, right around
 
 We first had a welcome event on Friday where attendees got to know each other. It was quite cool to finally be able to match usernames to faces, and finally meet the people I had been working with in-person. 
 
-I also met up with amazing people from the postmarketOS team, 
+I also met up with amazing people from the postmarketOS team! I had the chance to see a Fairphone 4 with the OS running Plasma Mobile smoothly, which was amazing.
 
 ## Day 1 & 2
 
@@ -98,8 +98,6 @@ What was decided was to create a new "FormLayout" component in Kirigami, which c
 
 # Closing
 
-I left after the third day to visit Paris before going home. It was my first time in Europe!
-
 Overall, I had an amazing time at Akademy this year, and hope to attend more in the future!
 
-TODO: Add pictures
+<img src="/images/blog/2022/10/konqi-calling.png" width=300px/>
