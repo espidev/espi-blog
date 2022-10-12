@@ -1,6 +1,6 @@
 ---
 title: "Akademy 2022"
-date: 2022-10-12T11:26:29+01:00
+date: 2022-10-11T11:26:29+01:00
 draft: false
 tags: [kde]
 ---
