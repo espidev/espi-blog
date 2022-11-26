@@ -9,7 +9,7 @@ enableComments = false
 
 Hey!
 
-My real name is Devin, and I am an undergraduate student majoring in mathematics (Combinatorics & Optimization) at the University of Waterloo.
+My real name is Devin, and I am an undergraduate student majoring in Computer Science at the University of Waterloo.
 
 There are a few things I work on, namely KDE contributions, music and some other software development things!
 
@@ -22,6 +22,7 @@ Contact:
 Socials:
 
 * **mastodon (foss stuff)** - [fosstodon.org/web/@espidev](https://fosstodon.org/web/@espidev)
+* **mastodon (casual)** - [mastodon.social/@espidev](https://mastodon.social/@espidev)
 * **twitter (music & random stuff)** - [twitter.com/espidev](https://twitter.com/espidev)
 
 Code:
