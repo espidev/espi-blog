@@ -20,5 +20,3 @@ However, starting last month, I have picked up working on Plasma Mobile again! I
 In the next few days, I will be detailing some of the tasks I have been working on!
 
 <img src="/images/blog/2023/11/yvr.jpg" width=500px/>
-
-I've been travelling a lot recently...
