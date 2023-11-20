@@ -1,7 +1,7 @@
 ---
 title: "Where I've been"
 date: 2023-11-19T20:26:29+01:00
-draft: true
+draft: false
 tags: [personal]
 ---
 
@@ -19,6 +19,6 @@ However, starting last month, I have picked up working on Plasma Mobile again! I
 
 In the next few days, I will be detailing some of the tasks I have been working on!
 
-<img src="/images/blog/2023/11/yvr.png" width=300px/>
+<img src="/images/blog/2023/11/yvr.jpg" width=500px/>
 
 I've been travelling a lot recently...
