@@ -9,7 +9,7 @@ Hello!
 
 I just wanted to give a somewhat of a personal update on how things are going.
 
-As you may have noticed, I have been somewhat absent from Plasma Mobile development since March. It appears that not much has happened in the project while I was gone, a sombre reminder that there are not many maintainers left that do mobile work. :sweat:
+As you may have noticed, I have been somewhat absent from Plasma Mobile development since March. It appears that not much has happened in the project while I was gone, a sombre reminder that there are not many maintainers left that do mobile work. 😓
 
 It was around the time that Plasma 6 porting work really started to pick up, and where things were changing and breaking on a daily basis, which made it really hard for me to keep up.
 
