@@ -2,7 +2,7 @@
 title: "Plasma Mobile: tuned up to 6!"
 date: 2023-12-08T22:21:39-08:00
 draft: false
-tags: []
+tags: [test]
 ---
 
 > There are some plans to have a more official blog post on the [plasma-mobile.org](plasma-mobile.org), these are my personal ramblings below...
