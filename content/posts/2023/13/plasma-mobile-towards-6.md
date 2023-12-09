@@ -1,6 +1,6 @@
 ---
 title: "Plasma Mobile: tuned up to 6!"
-date: 2023-12-08T22:21:39-08:00
+date: 2023-12-08T20:26:29+01:00
 draft: false
 tags: [test]
 ---
