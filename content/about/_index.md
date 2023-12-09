@@ -17,7 +17,7 @@ Contact:
 
 * **email** - espidev@gmail.com or devin@kde.org
 * **matrix** - @espidev:kde.org
-* **discord** - EspiDev#2837
+* **discord** - @espidev
 
 Socials:
 
