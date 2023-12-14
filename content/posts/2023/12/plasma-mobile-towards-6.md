@@ -156,7 +156,7 @@ There have luckily been contributors that have worked on Spacebar and Plasma Dia
 
 From recent testing though, there have been a lot of regressions in Plasma 6, so I likely need to start learning the ropes of how it all works in order to help out. Of particular focus for me will be improving the quality of the cellular settings and overall shell integration with ModemManager.
 
-My *current* carrier only supports VoIP so I have been unable to test calling, and I have had trouble with my PinePhone in getting cellular working, but I will probably try buying a USB modem to do testing on the desktop with.
+My *current* carrier only supports VoLTE so I have been unable to test calling, and I have had trouble with my PinePhone in getting cellular working, but I will probably try buying a USB modem to do testing on the desktop with.
 
 # Settings module consolidation
 
