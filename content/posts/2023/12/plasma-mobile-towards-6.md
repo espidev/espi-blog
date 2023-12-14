@@ -11,15 +11,11 @@ Plasma 6 is coming together nicely on the desktop!
 
 Coming back from hiatus, I was pleasantly greeted by a much more working session than when I last saw it in May; I have now completely switched over to it on my main machine!
 
-On the other hand, there is still a lot of work to do on mobile to prepare it for the Plasma 6 release in February.
-
-I will outline the current situation and the work I have done in the past few months in order to make Plasma 6 a possibility for Plasma Mobile.
+On the other hand, there is still a lot of work to do on mobile to prepare it for the Plasma 6 release in February. I will outline the current situation and the work I have done in the past few months in order to make Plasma 6 a possibility for Plasma Mobile.
 
 # Context
 
-I started working on KDE projects again in October (after an 8 month hiatus), slowly getting back into the groove of things.
-
-I unfortunately do not have as much spare time these days after work and school, but I try to do what I can!
+I started working on KDE projects again in October (after an 8 month hiatus), slowly getting back into the groove of things. I unfortunately do not have as much spare time these days after work and school, but I try to do what I can!
 
 # The distro situation
 
@@ -35,9 +31,7 @@ Until this year, Manjaro had helped us by providing daily development images. Un
 
 And so, there was a predicament. While I could develop the Plasma 6 mobile shell on the desktop, I had no way of testing it on a phone.
 
-Thankfully, Bart at [postmarketOS](https://postmarketos.org/) took up the effort of maintaining a repository of KDE packages that track git master. Instructions can be viewed [here](https://wiki.postmarketos.org/wiki/Nightly).
-
-With the Plasma 6 beta release, there will be postmarketOS images that can be easily downloaded and tested with!
+Thankfully, [postmarketOS](https://postmarketos.org/) graciously took up the effort of maintaining a repository of KDE packages that track git master. Instructions can be viewed [here](https://wiki.postmarketos.org/wiki/Nightly). With the Plasma 6 beta release, there will be postmarketOS images that can be easily downloaded and tested with!
 
 Seshan has also been working on an immutable distro [ProLinux](https://sineware.ca/prolinux/) which has images that track git master as well, which have been useful to test with.
 
@@ -45,17 +39,13 @@ Seshan has also been working on an immutable distro [ProLinux](https://sineware.
 
 A big part of the porting effort is simply porting the shell and applications to Qt 6 and KDE Frameworks 6.
 
-In the case of the **shell**, porting to Qt 6 was luckily fairly trivial. There were far more changes to the base KDE frameworks as package structures and QML plugins were being reworked, though that has stabilized in recent months.
-
-There are still some major regressions that need to be resolved before February (will be discussed later), but I am reasonably confident that the shell will in good shape by then.
+In the case of the **shell**, porting to Qt 6 was luckily fairly trivial. There were far more changes to the base KDE frameworks as package structures and QML plugins were being reworked, though that has stabilized in recent months. There are still some major regressions that need to be resolved before February (will be discussed later), but I am reasonably confident that the shell will in good shape by then.
 
 For **applications** however, it is more of a mixed bag.
 
 Several applications do not have active maintainers, and others need much more polish for mobile usage (as not all application developers have phones to test with).
 
-Technically, I am responsible for **KClock**, **KWeather** and **KRecorder**, but I have typically done contributions to a multitude of applications to ensure that they work well on mobile.
-
-This time around though, I have only been really able to work on the shell with the limited spare time I have, and so I have not been able to do some of the heavier porting work for applications.
+Technically, I am responsible for **KClock**, **KWeather** and **KRecorder**, but I have typically done contributions to a multitude of applications to ensure that they work well on mobile. This time around though, I have only been really able to work on the shell with the limited spare time I have, and so I have not been able to do some of the heavier porting work for applications.
 
 **KRecorder** in particular is unlikely to be ported in time for Plasma 6 as it depends on Qt Multimedia, which has had significant changes in Qt 6.
 
@@ -89,17 +79,21 @@ The move has been a bit problematic though, as KWin developed regressions during
 
 For some context, the default homescreen in Plasma 5 is Halcyon, which provides a simple way have a list of applications, while allowing them to be pinned and grouped into folders.
 
-TODO halcyon image
-
 We also have the Folio homescreen, which was the original default (before Plasma 5.26) that was more similar to a traditional homescreen, having favourites pages and an application drawer to access the full list of apps.
-
-TODO folio image
 
 The problem with Folio in Plasma 5 though was that it was particularly unstable (known to brick the shell), and was effectively an extended desktop canvas, so screen rotations and scaling changes would completely ruin the layout.
 
 I knew that it would require a very significant effort in order to rewrite it and fix its issues, so I developed Halcyon as a stopgap solution until I had the time to fix Folio.
 
 ---
+
+<img src="/images/blog/2023/12/folio.png" width=200px/>
+
+<img src="/images/blog/2023/12/folio-2.png" width=200px/>
+
+<img src="/images/blog/2023/12/folio-3.png" width=200px/>
+
+<img src="/images/blog/2023/12/folio-4.png" width=200px/>
 
 And so I spent about 5 weeks starting in October working solely on the Folio rewrite! It will be shipping as the default homescreen once again in Plasma 6.
 
@@ -168,7 +162,7 @@ My *current* carrier only supports VoIP so I have been unable to test calling, a
 
 In Plasma 5, a lot of mobile specific settings modules lived outside of the Plasma Mobile [repository](https://invent.kde.org/plasma/plasma-mobile), in places such as the settings application.
 
-I moved these settings modules together to be in the Plasma Mobile repository. This also removes the need to have a separate build of [plasma-nm](https://invent.kde.org/plasma/plasma-nm)
+I moved these settings modules together to be in the Plasma Mobile repository. This also removes the need to have a separate build of [plasma-nm](https://invent.kde.org/plasma/plasma-nm).
 
 # Other things to address
 
@@ -178,7 +172,7 @@ Much of it likely stems from the fact that it has to load the QML files right af
 
 # Conclusion
 
-I will be returning to a university term in January, likely making it impossible for me to contribute for a few months again.
+I will be returning to a university term in January, likely making it harder for me to contribute for a few months again.
 
 I have luckily finished most of the features I have wanted to get done for Plasma 6, and am now spending my effort fixing bugs and improving code quality. I hope that we can have a successful, bug-free Plasma Mobile release in February, but it is quite daunting at the moment as a single volunteer contributor for the mobile shell.
 
@@ -187,3 +181,6 @@ If you are interested in helping contribute, I encourage you to join the [Plasma
 There is also some documentation on the [wiki](https://invent.kde.org/plasma/plasma-mobile/-/wikis/home) that can help you get started.
 
 *go konqi!*
+
+<img src="/images/blog/2022/10/konqi-calling.png" width=300px/>
+
