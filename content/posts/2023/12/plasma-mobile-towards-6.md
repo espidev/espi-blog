@@ -71,7 +71,7 @@ With Plasma 6, I am moving the task switcher to be a self-contained KWin effect 
 
 We can also make use of KWin's infrastructure for gesture-only mode (removing the navigation bar), rather than relying on a hack with invisible panels in order to trigger it.
 
-The move has been a bit problematic though, as KWin developed regressions during Plasma 6 development that cause effect rendering to be broken on the PinePhone and SDM845 devices (possibly due to OpenGL versions?), but the issues are being worked on.
+The move has been a bit problematic though, as KWin developed regressions during Plasma 6 development that cause effect rendering to be broken on the PinePhone and SDM845 devices (possibly due to OpenGL versions?), but the issues are being worked on. *As of Dec. 13, this has been fixed.*
 
 # Rewriting Folio - the homescreen
 
