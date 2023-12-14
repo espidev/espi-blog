@@ -95,6 +95,8 @@ I knew that it would require a very significant effort in order to rewrite it an
 
 <img src="/images/blog/2023/12/folio-4.png" width=200px/>
 
+<img src="/images/blog/2023/12/folio-5.png" width=200px/>
+
 And so I spent about 5 weeks starting in October working solely on the Folio rewrite! It will be shipping as the default homescreen once again in Plasma 6.
 
 I am pretty happy with how it turned out, it supports:
