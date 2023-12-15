@@ -5,7 +5,7 @@ draft: false
 tags: [kde]
 ---
 
-> There are some plans to have a more official blog post on the [plasma-mobile.org](plasma-mobile.org), these are my personal ramblings below...
+> There are some plans to have a more official blog post on the [plasma-mobile.org](https://plasma-mobile.org), these are my personal ramblings below...
 
 Plasma 6 is coming together nicely on the desktop!
 
