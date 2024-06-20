@@ -81,6 +81,6 @@ Not much is really going to change, I will try to keep the plugin in a working s
 
 # To you, the community!
 
-If you are interested in contributing to ProtectionStones, I would highly encourage it! I can still dedicate time to reviewing pull requests to the repository. If not, I also still encourage developers to fork the project and expanding the codebase in a way they see fit. I hope that it serves as a good base to any that have grand ideas for improving the plugin for their own uses, or others!
+If you are interested in contributing to ProtectionStones, I would highly encourage it! I can still dedicate time to reviewing pull requests to the repository. If not, I also still encourage developers to fork the project and expand it in a way they see fit. I hope that it serves as a good base to any that have grand ideas for improving the plugin for their own uses, or others!
 
 Thank you everyone for having supported ProtectionStones these past few years, I really mean it!
