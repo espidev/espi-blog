@@ -5,7 +5,7 @@ draft: false
 tags: [minecraft]
 ---
 
-> **TLDR**: ProtectionStones is in **maintenance** mode, my interest in maintaining the project for free has waned as I have not hosted a Minecraft server for over 4 years. I will still try my best to upgrade the plugin and fix critical issues when I have the time, but do not expect major updates or consistent support on the Discord channel. I am currently looking for a **new** maintainer, but it seems unlikely I will find one due to a lack of contributors. See the bottom for more details for developers.
+> **TLDR**: ProtectionStones is in **maintenance** mode, my interest in maintaining the project for free has waned as I have not hosted a Minecraft server for many years. I will still try my best to upgrade the plugin and fix critical issues when I have the time, but do not expect major updates or consistent support on the Discord channel. I am currently looking for a **new** maintainer, but it seems unlikely I will find one due to a lack of contributors. See the bottom for more details for developers.
 
 In 2018, I found myself in need of a protection plugin for a Minecraft server I was working on. The most popular option I found then was GriefPrevention, however it felt a bit clunky for my needs, as I just wanted something really simple and easy to understand how to use. I had played on a server in the past that used ProtectionStones, which I found really intuitive! However, the plugin was not very maintained, and had not even been properly updated to support UUIDs until that point, causing several security issues.
 
@@ -15,7 +15,7 @@ I decided to try and pick up the project myself!
 
 **Spigot Page**: [https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/](https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/)
 
-### Picking up a project
+# Picking up a project
 
 The first [iteration](https://dev.bukkit.org/projects/protectionstones) of ProtectionStones was released in 2011 by AxelDios. It was rewritten and [revived](https://www.spigotmc.org/resources/protectionstones.10096/) in 2015. It was then [revived]() again in 2017. I continued off of the codebase of the last iteration.
 
@@ -39,13 +39,13 @@ It does make me very happy to see how much adoption of the plugin there is now, 
 
 <img src="https://bstats.org/signatures/bukkit/protectionstones.svg">
 
-### Maintaining a thing for free, alone
+# Maintaining a thing for free, alone
 
 ProtectionStones is open-source (GPLv3, as Spigot plugins should be licensed), and will always be free.
 
 I have operated with this guarantee from the beginning. I believe that it is incredibly important to have the source code for this plugin freely accessible and for the community to have the opportunity to modify it for their own uses, being such an important plugin to many servers.
 
-##### Can't keep up, while losing interest
+## Can't keep up, while losing interest
 
 However, it is incredibly hard to maintain a project like this indefinitely. I do not get paid for this work, and over time I have had less and less free-time in order to keep up with both support and maintenance. I unfortunately also have not really had any other active contributors to the codebase, and so development work is completely up to me. I have full-time school work, and jobs on the side, as well as other projects that I work on, and so over the years, I have spent less and less time on ProtectionStones development.
 
@@ -55,7 +55,7 @@ I also no longer have my main motivator, which was the Minecraft server I worked
 
 Overall, it has been a wild ride! ProtectionStones had been an important project for me for so long, it is crazy for me to think that almost 6 years have now gone by. When I first picked up the project, I was in still in high school. I am now about to graduate university...
 
-##### Why not make it paid?
+## Why not make it paid?
 
 I have received a few donations here and there, which I greatly appreciate! Some have asked whether I could be more active in maintaining the project if I made it a paid plugin.
 
@@ -63,7 +63,7 @@ Some open-source plugins have found it possible to have a paid model where they 
 
 For me however, money is not my main motivation to maintain the project. If I had limitless bandwidth and motivation, I would be happy to maintain this into far future. However, with so many commitments and waning interest in Minecraft as a whole, it really hurts to continue working on ProtectionStones, having to do extensive testing on each release knowing that there is still the potential of pushing breaking changes, while not getting much in return.
 
-##### What about passing the project on to someone else?
+## What about passing the project on to someone else?
 
 If there was someone I could entrust it to, I would be really happy to do so!
 
@@ -73,10 +73,12 @@ Perhaps you are interested in taking over the project!
 
 There are some requirements that I would have to do a full transfer of ownership for security purposes. With the amount of servers that use the plugin, I do not want to jeopardize their trust by giving it to a bad actor, who may release malware (see the [xz incident](https://securelist.com/xz-backdoor-story-part-2-social-engineering/112476/)). I would only give it to someone once they have contributed for a long period of time, and I have trust in their intentions and ability to maintain the plugin. Even then, I would still review public releases to ensure safety.
 
-### What now?
+# What now?
 
 Not much is really going to change, I will try to keep the plugin in a working state for as long as I can. However, I am soon graduating university, and with a full-time job and other interests, I probably will not be active at all. I am not sure if I will keep doing Discord support either consistently, however I have seen that some community members have been helping others, which I appreciate!
 
-### To you, the community!
+# To you, the community!
 
 If you are interested in contributing to ProtectionStones, I would highly encourage it! I can still dedicate time to reviewing pull requests to the repository. If not, I also still encourage developers to fork the project and expanding the codebase in a way they see fit. I hope that it serves as a good base to any that have grand ideas for improving the plugin for their own uses, or others!
+
+Thank you everyone for having supported ProtectionStones these past years, I mean it!
