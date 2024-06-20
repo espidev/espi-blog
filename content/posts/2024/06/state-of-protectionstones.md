@@ -15,6 +15,8 @@ I decided to try and pick up the project myself!
 
 **Spigot Page**: [https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/](https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/)
 
+<img src="/images/blog/2024/06/protectionstones.png" width=200px/>
+
 # Picking up a project
 
 The first [iteration](https://dev.bukkit.org/projects/protectionstones) of ProtectionStones was released in 2011 by AxelDios. It was rewritten and [revived](https://www.spigotmc.org/resources/protectionstones.10096/) in 2015. It was then [revived]() again in 2017. I continued off of the codebase of the last iteration.
@@ -37,7 +39,7 @@ Since picking up the project, the feature set has really grown, having allowed c
 
 It does make me very happy to see how much adoption of the plugin there is now, but also incredibly sad that I do not have the bandwidth or incentive to do this much longer...
 
-<img src="https://bstats.org/signatures/bukkit/protectionstones.svg">
+<img src="https://bstats.org/signatures/bukkit/protectionstones.svg" width="200px">
 
 # Maintaining a thing for free, alone
 
