@@ -4,7 +4,7 @@ title = 'espidev'
 theme = ["github.com/espidev/hugo-theme-mini"]
 
 [params]
-    enableComments = true
+    enableComments = false
 
 [markup]
   [markup.goldmark]
