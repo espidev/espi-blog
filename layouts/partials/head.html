@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
-{{ if (isset .Params.redirect_url) }}
+{{ if (isset .Params "redirect_url") }}
 <meta http-equiv="refresh" content="0; url={{ .Params.redirect_url }}">
 {{ end }}
 
