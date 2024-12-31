@@ -1,6 +1,7 @@
 ---
 title: EspiDev - Forever
 date: 2024-12-29
+hidden: true
 tags: [music]
 ---
 
@@ -8,5 +9,5 @@ This is a track I made for the game "Project: Muse"!
 
 {{< ref "download" >}}
 
-{{< youtube w7Ft2ymGmfc >}}
+{{< youtube 8Z1h6Z5AX3U >}}
 
