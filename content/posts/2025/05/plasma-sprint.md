@@ -13,7 +13,7 @@ I decided to make this also a vacation as well, I will eventually have another p
 
 Be sure to also check out blog posts about the sprint by other Plasma developers over at [planet.kde.org](https://planet.kde.org/).
 
-<img src="/images/blog/2025/05/sprint-mobile-group.webp" width=300px/>
+<img src="/images/blog/2025/05/sprint.jpg" width=300px/>
 
 *Photo by Kevin Krammer*
 
