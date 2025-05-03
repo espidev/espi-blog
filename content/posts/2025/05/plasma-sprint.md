@@ -13,7 +13,7 @@ I brought my [brother](https://invent.kde.org/kenoi) along as well, who is start
 
 Be sure to also check out blog posts about the sprint by other Plasma developers over at [planet.kde.org](https://planet.kde.org/).
 
-<img src="/images/blog/2025/05/sprint.jpg" width=300px/>
+<img src="/images/blog/2025/05/sprint.jpg" width=500px/>
 
 *Photo by Kevin Krammer*
 
