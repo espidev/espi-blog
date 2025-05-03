@@ -9,7 +9,7 @@ I attended the Plasma sprint this year in Graz, Austria!
 
 It has been a couple of years since I have last met KDE contributors in-person (Akademy 2022), so I really looked forward to finally being able to meet again. This sprint was the first time I met [Bhushan](https://blog.bshah.in), who is a long time contributor to Plasma Mobile, and was the one that initially guided me through contributions! He recently got funding to overhaul and improve the power management stack we have in Plasma Mobile, which you can read about [here](https://blog.bshah.in/2025/03/22/professional-update-plasma-mobile-ngi0-core-grant/). I also met [Luis](https://lprod.dev/) for the first time, who has been contributing to the project for quite a while, notably having contributed the system navigation gestures we have now!
 
-I decided to make this also a vacation as well, I will eventually have another post about it (link coming when that happens). This post will focus on just the sprint itself.
+I brought my [brother](https://invent.kde.org/kenoi) along as well, who is starting to also make contributions to KDE. After the sprint, we travelled around a bit (I will eventually have another post about it, link coming when that happens). This post will focus on just the sprint itself.
 
 Be sure to also check out blog posts about the sprint by other Plasma developers over at [planet.kde.org](https://planet.kde.org/).
 
