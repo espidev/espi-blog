@@ -18,12 +18,11 @@ a {
   text-decoration-style: solid;
   text-decoration-thickness: 2px;
   text-decoration-color: rgb(244, 244, 246);
-  color: #0366d6;
-  font-weight: 600;
+  color: rgb(var(--fade-92));
+  font-weight: 400;
 }
 
 a:hover {
-  color: #0366d6;
   text-decoration-color: rgb(60, 60, 60);
 }
 
@@ -300,7 +299,7 @@ nav.navigation a.button {
   display: inline-block;
   color: #404040;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
   width: 80%;
 }
