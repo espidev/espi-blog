@@ -18,12 +18,12 @@ a {
   text-decoration-style: solid;
   text-decoration-thickness: 2px;
   text-decoration-color: rgb(244, 244, 246);
-  color: rgb(var(--fade-92));
-  font-weight: 400;
+  color: #0366d6;
+  font-weight: 600;
 }
 
 a:hover {
-  text-decoration-color: rgb(60, 60, 60);
+  text-decoration-color: rgb(100, 100, 100);
 }
 
 /* markdown content styles */
@@ -365,7 +365,7 @@ nav.navigation a.button {
 #single .title {
   text-align: center;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 48px;
 }
 
