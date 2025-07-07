@@ -97,7 +97,7 @@ I recommend keeping an **orientation lock** on "portrait" mode when using the ap
 
 ## Missing camera controls
 
-The drivers for the OnePlus 6 and Pixel 3a seem to be missing almost all of the libcamera [controls]https://libcamera.org/api-html/namespacelibcamera_1_1controls.html). At least, calling `camera->controls()` ([doc](https://libcamera.org/api-html/classlibcamera_1_1Camera.html#a10ef308df9bfb61c9ad825f4580074a7)) gives only the [Contrast](https://libcamera.org/api-html/namespacelibcamera_1_1controls.html#a76f39d8c7048f1cea3af63bd2839d6b4) control from libcamera. There are other controls that I would like to implement once they become available, such as [focus windows](https://libcamera.org/api-html/namespacelibcamera_1_1controls.html#aeece9e5e8fd738c5446efbdb06f93aac).
+The drivers for the OnePlus 6 and Pixel 3a seem to be missing almost all of the libcamera [controls](https://libcamera.org/api-html/namespacelibcamera_1_1controls.html). At least, calling `camera->controls()` ([doc](https://libcamera.org/api-html/classlibcamera_1_1Camera.html#a10ef308df9bfb61c9ad825f4580074a7)) gives only the [Contrast](https://libcamera.org/api-html/namespacelibcamera_1_1controls.html#a76f39d8c7048f1cea3af63bd2839d6b4) control from libcamera. There are other controls that I would like to implement once they become available, such as [focus windows](https://libcamera.org/api-html/namespacelibcamera_1_1controls.html#aeece9e5e8fd738c5446efbdb06f93aac).
 
 Once these are implemented in the driver (or if it's fixed as an issue on our side) and support is added in the application, we will have a lot more camera features to play with!
 
