@@ -9,9 +9,9 @@ Cameras!
 
 <img src="/images/blog/2025/07/plasma-camera/app.png" width="200px" />
 
-Today, I am announcing a new release of [Plasma Camera](https://invent.kde.org/plasma-mobile/plasma-camera), a camera application for Plasma Mobile (though it can also be used on desktop!). This release ports the application to use [libcamera](https://libcamera.org/) as the backend for interfacing with cameras, finally allowing for it to be used on Linux mobile devices (such as the OnePlus 6).
+Today, I am announcing a new [release](https://plasma-mobile.org/2025/07/08/releases-25-07/) of [Plasma Camera](https://invent.kde.org/plasma-mobile/plasma-camera), a camera application for Plasma Mobile (though it can also be used on desktop!). This release ports the application to use [libcamera](https://libcamera.org/) as the backend for interfacing with cameras, finally allowing for it to be used on Linux mobile devices (such as the OnePlus 6).
 
-The main porting work was done by my friend [Andrew (koitu)](https://koitu.com) a couple of months ago. It remained stalled on some issues, so I picked it up in the past week to complete the port and finish the application. He will have a blog post that goes into the more technical details of the port (linked here once it's ready).
+The main porting work was done by my friend [Andrew (koitu)](https://koitu.com) a couple of months ago. It remained stalled on some issues, so I picked it up in the past week to complete the port and finish the application. Here is a [link](https://koitu.com/blog/plasma-camera-porting-to-libcamera/), which has more technical details!
 
 # Background
 
