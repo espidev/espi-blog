@@ -37,7 +37,9 @@ Merge requests:
 
 At this point before my work, the shell UI looked like this:
 
-TODO pictures
+<img src="/images/blog/2025/07/plasma-bigscreen/old-1.png" width="250px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/old-3.png" width="250px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/old-2.png" width="250px" />
 
 I was digging around some old Breeze Ocean [mockups](https://www.figma.com/design/gjuIy1rxU9xHkaJXM0pasK/old-ocean?node-id=1336-7194&t=ZRqHhUEJFR269CHt-0) and stumbled across some Bigscreen mockups by [Manuel](https://invent.kde.org/mdelafuente). It seems the original Bigscreen UI did try to follow it, but did not quite get there. I felt inspired to fully complete implementing them.
 
