@@ -27,7 +27,7 @@ A few months ago, my friend [Seshan](https://seshan.xyz/) started doing some wor
 
 ### Housekeeping
 
-I started with some housekeeping work with the repository. I added a README, and a REUSE license checker to the CI. I then ported the QML library to be a declarative plugin, and removed a bunch of abandonded code folders that were not used anywhere in the codebase.
+I started with some housekeeping work with the repository. I added a README, and a REUSE license checker to the CI. I then ported the QML library to be a declarative plugin, and removed a bunch of abandoned code folders that were not used anywhere in the codebase.
 
 Merge requests:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/111
@@ -71,7 +71,7 @@ I redesigned the system settings view to have a sidebar with categories, with a 
 
 The settings modules (KCMs) had a lot of hardcoded UI elements and layouts. I decided to make a small component library to build TV focused UIs (that still look Breeze like), and ported all of the settings modules to it. I moved away from horizontal layouts to vertical layouts for content, and put a heavier emphasis on sidebars for interacting with individual delegates. I think it looks pretty nice:
 
-<video width="400" controls>
+<video width="450" controls>
     <source src="/images/blog/2025/07/plasma-bigscreen/settings.webm" type="video/webm">
 </video>
 
@@ -82,9 +82,9 @@ I ported settings modules to my controls library, and also fixed some issues:
 - Bigscreen KCM (ported to new UI, fix shortcuts, fixed timezone selection)
 - Wi-Fi KCM (ported to new UI)
 
-<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen.png" width="400px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen-sidebar.png" width="400px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/settings-audio.png" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen.png" width="450px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen-sidebar.png" width="450px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/settings-audio.png" width="450px" />
 
 Merge requests:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/115 (rework settings app)
@@ -99,7 +99,7 @@ Merge requests:
 
 The UI feedback for starting an application was broken, so I decided to overhaul it to be something similar to what we have on mobile:
 
-<img src="/images/blog/2025/07/plasma-bigscreen/startup-feedback.webp" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/startup-feedback.webp" width="450px" />
 
 Merge request:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/125
@@ -140,6 +140,10 @@ These some of the ones I tried from [Flathub](https://flathub.org/):
 Of course, we also have KDE applications designed for TV:
 - [Aura browser](https://invent.kde.org/plasma/aura-browser)
 - [Plank media player](https://invent.kde.org/plasma/plank-player)
+
+<img src="/images/blog/2025/07/plasma-bigscreen/apps1.png" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/apps2.png" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/apps3.png" width="400px" />
 
 ## Controller support
 
