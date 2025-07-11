@@ -37,9 +37,9 @@ Merge requests:
 
 At this point before my work, the shell UI looked like this:
 
-<img src="/images/blog/2025/07/plasma-bigscreen/old-1.png" width="250px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/old-3.png" width="250px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/old-2.png" width="250px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/old-1.png" width="300px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/old-3.png" width="300px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/old-2.png" width="300px" />
 
 I was digging around some old Breeze Ocean [mockups](https://www.figma.com/design/gjuIy1rxU9xHkaJXM0pasK/old-ocean?node-id=1336-7194&t=ZRqHhUEJFR269CHt-0) and stumbled across some Bigscreen mockups by [Manuel](https://invent.kde.org/mdelafuente). It seems the original Bigscreen UI did try to follow it, but did not quite get there. I felt inspired to fully complete implementing them.
 
@@ -54,8 +54,8 @@ I first worked on the homescreen UI. I flattened the layout to reduce visual com
 
 I also added a search view based on KRunner. This allows users to search for the applications they need without needing to manually scroll through the entire application list.
 
-<img src="/images/blog/2025/07/plasma-bigscreen/search.png" width="300px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/clock.webp" width="300px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/search.png" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/clock.webp" width="400px" />
 
 Merge requests:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/114
@@ -82,9 +82,9 @@ I ported settings modules to my controls library, and also fixed some issues:
 - Bigscreen KCM (ported to new UI, fix shortcuts, fixed timezone selection)
 - Wi-Fi KCM (ported to new UI)
 
-<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen.png" width="300px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen-sidebar.png" width="300px" />
-<img src="/images/blog/2025/07/plasma-bigscreen/settings-audio.png" width="300px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen.png" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/settings-bigscreen-sidebar.png" width="400px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/settings-audio.png" width="400px" />
 
 Merge requests:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/115 (rework settings app)
@@ -99,7 +99,7 @@ Merge requests:
 
 The UI feedback for starting an application was broken, so I decided to overhaul it to be something similar to what we have on mobile:
 
-<img src="/images/blog/2025/07/plasma-bigscreen/startup-feedback.webp" width="300px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/startup-feedback.webp" width="400px" />
 
 Merge request:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/125
@@ -162,9 +162,11 @@ There are still a lot of TODOs that need to be resolved in the project.
 
 ### Input
 
-Input for sure is one thing. There isn't a virtual keyboard to input text with that supports arrow navigation. This is something planned for [Plasma Keyboard](https://invent.kde.org/plasma/plasma-keyboard/-/issues/10) however, keep tuned! [plasma-remotecontrollers](https://invent.kde.org/plasma-bigscreen/plasma-remotecontrollers)'s settings module is also not yet properly ported and tested on Bigscreen.
+There isn't a virtual keyboard to input text with that supports arrow navigation. This is something planned for [Plasma Keyboard](https://invent.kde.org/plasma/plasma-keyboard/-/issues/10) however, please stay tuned! 
 
-So... it's probably best to still use a bluetooth keyboard and mouse for now.
+The [plasma-remotecontrollers](https://invent.kde.org/plasma-bigscreen/plasma-remotecontrollers)'s (TV remote/game controller support) settings module is also not yet properly ported and tested on Bigscreen.
+
+So... it is probably best to still use a bluetooth keyboard and mouse for now, or an [air remote](https://www.amazon.ca/WeChip-W3-Wireless-Control-Projector/dp/B09XMF5YN1?dib=eyJ2IjoiMSJ9.dilDauo-Zk3MBItv6GLBeqlqqS0YpPF3W2zbSAAMkd4ksRPOq9riBr7QfCF_mpa2i8Tn-nFd6GJ1a1igaqGFCemAWIVSPQRFfbmeZPyvBtyQuZI8dXk9sTWovGAQKGxr9KnfgRiq0Zm7fLHKLqPMG9JQ2t4ubzLAqGiAmHSBBu12f_vqMCZOdfNjS15AKDc5vxyZoxyTT6cNIl-5IB8HiUQ350-jgAHEZzd4kp0ipQNTv4XLC5RVxyzcXenBkHm8XcK-kcknSSpjQSLsxFv0W-HvLONe3oahCCAlhZ8AX7I.HhSCV93tE1umG4qMsJwsCgPOdGCnGYrcl8z96E76fQw&dib_tag=se&keywords=air+mouse+remote&qid=1752194582&sr=8-3).
 
 ### Application design
 
@@ -172,7 +174,7 @@ We do not have any framework to design TV-based UIs in KDE. [Aura browser](https
 
 ### Goals
 
-What are the usecases we want to achieve with a TV focused desktop environment? Do we need to also pursue making frontends for various media services? There isn't a clear direction for the project, beyond making it a working desktop environment (though there aren't really many contributors to drive this forward).
+What are the usecases we want to achieve with a TV focused desktop environment? Do we need to also pursue making frontends for various media services? There isn't a clear direction for the project at the moment, beyond making it a working desktop environment. In the past, this project was heavily focused on [Mycroft](https://en.wikipedia.org/wiki/Mycroft_(software)) but that no longer exists.
 
 # Overall
 
