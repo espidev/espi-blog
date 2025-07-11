@@ -23,7 +23,7 @@ About a year ago, the project was [ported](https://invent.kde.org/plasma/plasma-
 
 # Stepping in
 
-A few months ago, my friend [Seshan](https://seshan.xyz/) started doing some work to get some KDE experience, and opened a few merge requests against the Plasma Bigscreen [shell repository](https://invent.kde.org/plasma/plasma-bigscreen/). I noticed that there had basically been no activity on the repository since the initial Qt6/Plasma6 port, and the [matrix channel](https://matrix.to/#/%23plasma-bigscreen:kde.org) had no active developers. I sensed an opportunity...
+A few months ago, my friend [Seshan](https://seshan.xyz/) started doing some work and opened a few merge requests against the Plasma Bigscreen [shell repository](https://invent.kde.org/plasma/plasma-bigscreen/). I noticed that there had basically been no activity on the repository since the initial Qt6/Plasma6 port, and the [matrix channel](https://matrix.to/#/%23plasma-bigscreen:kde.org) had no active developers. I sensed an opportunity...
 
 ### Housekeeping
 
