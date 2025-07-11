@@ -147,9 +147,9 @@ Of course, we also have KDE applications designed for TV:
 
 ## Controller support
 
-There is a repository called [plasma-remotecontrollers](https://invent.kde.org/plasma-bigscreen/plasma-remotecontrollers), which contains a daemon that is able to take both game controllers (ex. XBox) and TV remotes (over CEC on HDMI) and map them to system. It also has a settings module to configure the shortcuts.
+There is a repository called [plasma-remotecontrollers](https://invent.kde.org/plasma-bigscreen/plasma-remotecontrollers), which contains a daemon that is able to take both game controllers (ex. Xbox) and TV remotes (over CEC on HDMI) and map them to system. It also has a settings module to configure the shortcuts.
 
-I was able to successfully test having an XBox controller connected (with the daemon online), an having it map the arrow buttons to arrow keys on the system. I wasn't able to however test the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) support, which would allow buttons on TV remotes (over HDMI) map to arrow keys.
+I was able to successfully test having an Xbox controller connected (with the daemon online), an having it map the arrow buttons to arrow keys on the system. I wasn't able to however test the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) support, which would allow buttons on TV remotes (over HDMI) map to arrow keys.
 
 ## Other contributors
 
@@ -160,9 +160,9 @@ I was able to successfully test having an XBox controller connected (with the da
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/106 - (Seshan - Improve the favorites selector)
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/147 - (User8395 - Create a new bluetooth KCM)
 
-# TODOs
+# Unresolved issues
 
-There are still a lot of TODOs that need to be resolved in the project.
+There is still a lot to work on in the project.
 
 ### Input
 
@@ -180,8 +180,12 @@ We do not have any framework to design TV-based UIs in KDE. [Aura browser](https
 
 What are the usecases we want to achieve with a TV focused desktop environment? Do we need to also pursue making frontends for various media services? There isn't a clear direction for the project at the moment, beyond making it a working desktop environment. In the past, this project was heavily focused on [Mycroft](https://en.wikipedia.org/wiki/Mycroft_(software)) but that no longer exists.
 
+### Getting it released again
+
+Distributions dropped their respective `plasma-bigscreen` packages when Plasma 6 rolled out, as it is no longer part of the Plasma release. We need to have the project return to the Plasma release cycle, hopefully starting with Plasma 6.5.
+
 # Overall
 
-I am fairly happy with the work I was able to do on Bigscreen last month, I am also hoping that it can rejoin the Plasma 6.5 release! I have since returned to working on Plasma Mobile (due to having limited time as a volunteer contributor), but I can still step in and help review merge requests and guide new contributors to the project.
+I am fairly happy with the work that I was able to produce for Bigscreen last month. I have since returned to working on Plasma Mobile (due to having limited time as a volunteer contributor), but I can still step in and help review merge requests and guide new contributors to the project.
 
 Come visit us in the Bigscreen matrix group [#plasma-bigscreen:kde.org](https://matrix.to/#/%23plasma-bigscreen:kde.org)!
