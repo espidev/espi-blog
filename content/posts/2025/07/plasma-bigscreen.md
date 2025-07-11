@@ -19,7 +19,7 @@ I have not been involved with the project in the past so its history is a bit mu
 
 Plasma Bigscreen itself emerged around 2020 and was designed as a "Plasma shell", in a similar way to Plasma Desktop and Plasma Mobile. Back when development was active, it provided a TV friendly launcher to launch Linux apps, and even had its own "mini-apps", known as Mycroft Skills. These could be downloaded from the [KDE Store](https://store.kde.org/browse?cat=608&ord=latest). A TV-friendly [web browser](https://invent.kde.org/plasma/aura-browser) and [media player](https://invent.kde.org/plasma/plank-player) were also developed for the project. The project itself was released in the Plasma 5 release cycle, but got dropped with Plasma 6 in 2024 because it was not ported in time for the megarelease.
 
-About a year ago, the code was the project was [ported](https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/92) to Plasma 6 (and Qt 6), but has not yet recieved a release since being removed from the Plasma release schedule. 
+About a year ago, the project was [ported](https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/92) to Plasma 6 (and Qt 6), but has not yet received a release since being removed from the Plasma release schedule. 
 
 # Stepping in
 
@@ -35,7 +35,7 @@ Merge requests:
 
 ## UI
 
-At this point before my work, the shell UI looked like this:
+At this point prior to my work, the shell UI looked like this:
 
 <img src="/images/blog/2025/07/plasma-bigscreen/old-1.png" width="300px" />
 <img src="/images/blog/2025/07/plasma-bigscreen/old-3.png" width="300px" />
@@ -45,7 +45,7 @@ I was digging around some old Breeze Ocean [mockups](https://www.figma.com/desig
 
 ### Homescreen
 
-I first worked on the homescreen UI. I flattened the layout to reduce visual complexity on the page, removing panel backgrounds and shadows where possible, while adding tooltips for the indicators. I then added an "expanded clock" view for when the user is at the top of application categories (based on the mockups), which shrinks when the user goes down the view. I ported the application lists to use ListView and delegate caching rather than having all elements having their coordinates positioned manually to improve performance. The background now also blurs when it is not the main focus of the UI.
+I first worked on the homescreen UI. I flattened the layout to reduce visual complexity, removing panel backgrounds and shadows where possible, while adding tooltips for the indicators. I then added an "expanded clock" view for when the user is at the top of application categories (based on the mockups), which shrinks when the user goes down the view. I ported the application lists to use ListView and delegate caching rather than having all elements having their coordinates positioned manually to improve performance. The background now also blurs when it is not the main focus of the UI.
 
 <video width="400" controls>
     <source src="/images/blog/2025/07/plasma-bigscreen/homescreen.webm" type="video/webm">
@@ -116,7 +116,7 @@ Merge requests:
 
 In order to try it out (on a TV for realsies, not just on my workstation), I used a Raspberry Pi 5. I flashed [postmarketOS](https://postmarketos.org/) onto it, and then manually compiled and installed the [Plasma Bigscreen](https://invent.kde.org/plasma/plasma-bigscreen/) shell. 
 
-**Note:** If you are trying to build and install on postmarketOS yourself, be sure install the dependencies and pass the build flags in this manifest as they are a necessity: https://gitlab.postmarketos.org/postmarketOS/pmaports/-/blob/ee4de8c6702a113914d6ed899c88cb9411e75427/packages/plasma-bigscreen/APKBUILD#L57
+**Note:** If you are trying to build and install on postmarketOS yourself, be sure install the dependencies and pass the build flags in this manifest, as they are required: https://gitlab.postmarketos.org/postmarketOS/pmaports/-/blob/ee4de8c6702a113914d6ed899c88cb9411e75427/packages/plasma-bigscreen/APKBUILD#L57
 
 As a user you can otherwise install `plasma-bigscreen` from the [nightly repo](), or use the [AUR package](https://aur.archlinux.org/packages/plasma-bigscreen-git) on Arch (though I haven't tried it).
 
@@ -130,7 +130,7 @@ As a user you can otherwise install `plasma-bigscreen` from the [nightly repo]()
 
 In its heyday, Plasma Bigscreen relied on "Mycroft Skills" to provide some media applications such as YouTube and SoundCloud. We do not have that anymore, so I tried out some other Linux applications.
 
-These some of the ones I tried from [Flathub](https://flathub.org/):
+These are some of the ones I tried from [Flathub](https://flathub.org/):
 - [Kodi](https://flathub.org/apps/tv.kodi.Kodi) - Works well with arrow navigation, allows you to manage a local digital library of content
 - [VacuumTube](https://flathub.org/apps/rocks.shy.VacuumTube) - Provides the YouTube TV web UI wrapped in an application, works well with arrow navigation
 - [Jellyfin](https://flathub.org/apps/com.github.iwalton3.jellyfin-media-player) - I don't have a Jellyfin server; it launches fine but I don't think it supports arrow navigation
@@ -147,9 +147,9 @@ Of course, we also have KDE applications designed for TV:
 
 ## Controller support
 
-There is a repository called [plasma-remotecontrollers](https://invent.kde.org/plasma-bigscreen/plasma-remotecontrollers), which contains a daemon that is able to take both game controllers (ex. Xbox) and TV remotes (over CEC on HDMI) and map them to system. It also has a settings module to configure the shortcuts.
+There is a repository called [plasma-remotecontrollers](https://invent.kde.org/plasma-bigscreen/plasma-remotecontrollers), which contains a daemon that is able to take both game controllers (ex. Xbox) and TV remotes (over [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) on HDMI) and map them to keyboard arrow keys. It also has a settings module to configure the shortcuts.
 
-I was able to successfully test having an Xbox controller connected (with the daemon online), an having it map the arrow buttons to arrow keys on the system. I wasn't able to however test the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) support, which would allow buttons on TV remotes (over HDMI) map to arrow keys.
+I was able to successfully test having an Xbox controller connected (with the daemon online), and having it map the arrow buttons to arrow keys on the system. I wasn't able to however test the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) support, which would allow buttons on TV remotes (over HDMI) map to arrow keys.
 
 ## Other contributors
 
@@ -188,4 +188,4 @@ Distributions dropped their respective `plasma-bigscreen` packages when Plasma 6
 
 I am fairly happy with the work that I was able to produce for Bigscreen last month. I have since returned to working on Plasma Mobile (due to having limited time as a volunteer contributor), but I can still step in and help review merge requests and guide new contributors to the project.
 
-Come visit us in the Bigscreen matrix group [#plasma-bigscreen:kde.org](https://matrix.to/#/%23plasma-bigscreen:kde.org)!
+Feel free to join us in the Bigscreen Matrix group [#plasma-bigscreen:kde.org](https://matrix.to/#/%23plasma-bigscreen:kde.org)!
