@@ -54,11 +54,8 @@ I first worked on the homescreen UI. I flattened the layout to reduce visual com
 
 I also added a search view based on KRunner. This allows users to search for the applications they need without needing to manually scroll through the entire application list.
 
-<img src="/images/blog/2025/07/plasma-bigscreen/search.webp" width="300px" />
-
-<video width="400" controls>
-    <source src="/images/blog/2025/07/plasma-bigscreen/search.webm" type="video/webm">
-</video>
+<img src="/images/blog/2025/07/plasma-bigscreen/search.png" width="300px" />
+<img src="/images/blog/2025/07/plasma-bigscreen/clock.webp" width="300px" />
 
 Merge requests:
 - https://invent.kde.org/plasma/plasma-bigscreen/-/merge_requests/114
