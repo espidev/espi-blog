@@ -14,3 +14,8 @@ theme = ["github.com/espidev/hugo-theme-mini"]
 # Enable tags.
 [taxonomies]
    tag = "tags"
+
+[sitemap]
+changeFreq = ""  # Default change frequency (empty string)
+filename = "sitemap.xml"  # Sitemap file name
+priority = -1  # Default priority (-1 means omitted from rendered sitemap)
