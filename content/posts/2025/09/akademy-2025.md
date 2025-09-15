@@ -51,4 +51,6 @@ I met Bart, Luca, Casey and Pablo from the [postmarketOS](https://postmarketos.o
 
 I met [Dorota](https://dorotac.eu/), who has been working on Wayland input related things for the past few years, and is in the process of pushing through updates to [text-input-v3](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/435), and [Jakob]() who has been working on the KDE side pushing through the input related KDE goals! We discussed some input related topics, which was insightful as I worked on the client side through plasma-keyboard (and my limited Wayland knowledge). 
 
+I also discussed some Kirigami page navigation related topics with [Marco](https://notmart.org/blog/). I'm doing a bit of investigation into how we can improve the way we navigate between pages in applications, and perhaps restricting the page left/right gesture into the side (similar to iOS).
+
 <img src="/images/blog/2025/09/IMG20250907182233.jpg" width="300px" />
