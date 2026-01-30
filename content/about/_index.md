@@ -9,7 +9,9 @@ enableComments = false
 
 Hey!
 
-My real name is Devin, and I am an undergraduate student majoring in Computer Science at the University of Waterloo.
+My real name is Devin, and I am a software engineer at [Meta](https://www.meta.com/). I am currently based in NYC!
+
+I studied Computer Science at the University of Waterloo.
 
 There are a few things I work on, namely KDE contributions, music and some other software development things!
 
